@@ -1,0 +1,13 @@
+{
+    "node": true,
+    "laxcomma": true,
+    "unused": false,
+    "undef": false,
+    "predef": [
+        "PATH",
+        "injector",
+        "log",
+        "q",
+        "_"
+    ]
+}

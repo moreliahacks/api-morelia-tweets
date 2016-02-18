@@ -1,0 +1,9 @@
+{
+    "node": true,
+    "laxcomma": true,
+    "unused": true,
+    "undef": true,
+    "predef": [
+        "_", "q", "log"
+    ]
+}

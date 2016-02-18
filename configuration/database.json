@@ -1,0 +1,18 @@
+{
+
+    "development": {
+        "host": "db.gentebool.com",
+        "database": "MT_dev"
+    },
+
+    "test": {
+        "host": "db.gentebool.com",
+        "database": "MT_test"
+    },
+
+    "production": {
+        "host": "db.gentebool.com",
+        "database": "MT"
+    }
+
+}

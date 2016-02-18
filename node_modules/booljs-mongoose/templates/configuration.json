@@ -1,0 +1,18 @@
+{
+
+    "development": {
+        "host": "{{hostname}}",
+        "database": "{{database}}"
+    },
+
+    "test": {
+        "host": "{{hostname}}",
+        "database": "{{database}}_test"
+    },
+
+    "production": {
+        "host": "{{hostname}}",
+        "database": "{{database}}"
+    }
+
+}

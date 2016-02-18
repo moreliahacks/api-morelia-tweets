@@ -1,0 +1,15 @@
+{
+  "name": "moreliatuits",
+  "version": "1.0.0",
+  "description": "Morelia tuits analizer ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bool.js": "^0.5.5",
+    "booljs-mongoose": "^0.2.1"
+  }
+}

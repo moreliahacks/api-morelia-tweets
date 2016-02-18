@@ -19,8 +19,8 @@ module.exports = function (app, Schema) {
         });
     };
 
-    TweetSchema.statics.insert = function(note) {
-        return q.nbind(this.create, this)(note);
+    TweetSchema.statics.insert = function(tweet) {
+        return q.nbind(this.create, this)(tweet);
     };
 
     TweetSchema.statics.update = function(id, data){

@@ -6,8 +6,14 @@ module.exports = function(app){
 
     return {
         list: function(){
-            return tweet.list();
-        }
+            return tweet.list(query, fields, projection);
+        },
+        find: function(id){
+            return tweet.findById(id);
+        },
+        create: function(data){
+            return tweet.insert(data);
+        },
     };
 
 };

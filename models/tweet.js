@@ -3,9 +3,16 @@
 module.exports = function (app, Schema) {
 
     var TweetSchema = new Schema({
-        title: String,
-        description: String,
-        url: String
+        text: String,
+        twitterId: String,
+        categories: Array,
+        sentimental: Object,
+        date: Date,
+        location: {
+            geo: String,
+            coordinates: Object,
+            place: String
+        }
     });
 
     TweetSchema.statics.list = function(query, fields, projection) {

@@ -5,7 +5,7 @@ module.exports = function(app){
     var tweet = new app.models.Tweet();
 
     return {
-        list: function(){
+        list: function(query, fields, projection){
             return tweet.list(query, fields, projection);
         },
         find: function(id){

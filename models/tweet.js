@@ -3,8 +3,10 @@
 module.exports = function (app, Schema) {
 
     var TweetSchema = new Schema({
-        text: String,
         twitterId: String,
+        text: String,
+        hashtags: Array,
+        mentions: Array,
         categories: Array,
         sentimental: Object,
         date: Date,

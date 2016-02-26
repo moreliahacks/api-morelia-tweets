@@ -8,7 +8,7 @@ module.exports = function (app, Schema) {
         hashtags: Array,
         mentions: Array,
         categories: Array,
-        sentimental: Object,
+        sentiment: Object,
         date: Date,
         location: {
             geo: String,

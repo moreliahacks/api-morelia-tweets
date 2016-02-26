@@ -5,8 +5,7 @@ module.exports = function (app, Schema) {
     var TweetSchema = new Schema({
         twitterId: String,
         text: String,
-        hashtags: Array,
-        mentions: Array,
+        entities: Object,
         categories: Array,
         sentiment: Object,
         date: Date,
